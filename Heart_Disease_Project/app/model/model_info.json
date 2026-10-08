@@ -1,0 +1,27 @@
+{
+  "model_name": "SVM",
+  "feature_order": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "test_metrics": {
+    "Accuracy": 0.8525,
+    "Precision": 0.8529,
+    "Recall": 0.8788,
+    "F1-score": 0.8657,
+    "AUC": 0.9058,
+    "CV F1 (train)": 0.8816,
+    "Overall score": 0.8844
+  }
+}
